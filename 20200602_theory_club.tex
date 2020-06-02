@@ -22,6 +22,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[style=nature,backend=biber,autocite=footnote]{biblatex}
 \addbibresource{/home/asinha/Documents/01_Readables/00_research_papers/bibliography/masterbib.bib}
+\renewcommand*{\bibfont}{\tiny}
 % Use opensans
 % \usepackage[default,scale=0.95]{opensans}
 \usepackage[sfdefault]{roboto}
@@ -139,6 +140,14 @@
   How does repair by structural plasticity affect the function of the brain network?
 \end{frame}
 \section{How?}
+\begin{frame}[c]
+  \frametitle{Network dynamics during repair: Butz et al.}
+  \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{99_images/butz-figure8.png}
+  \end{figure}
+  \footnotetext[2]{\fullcite{Butz2013}}
+\end{frame}
 \begin{frame}[c]
   \frametitle{Network dynamics during repair: Butz et al.}
   \begin{figure}[h]
@@ -304,6 +313,19 @@
     \centering
     \includegraphics[width=0.6\linewidth]{99_images/performance-during-repair}
   \end{figure}
+\end{frame}
+\begin{frame}[c]
+  \frametitle{Conclusions}
+  \begin{itemize}
+    \item New model of peripheral lesioning and repair in a balanced cortical network model.
+    \item New activity dependent growth curves for all types of neurites.
+    \item Lack of AI firing characteristics in the LPZ post-repair.
+    \item Deterioration in associative memory recall performance after deafferentation even with repair.
+  \end{itemize}
+\end{frame}
+\begin{frame}[t,allowframebreaks]
+  \frametitle{Bibliography}
+  \printbibliography[heading=none]{}
 \end{frame}
 \end{document}
 
